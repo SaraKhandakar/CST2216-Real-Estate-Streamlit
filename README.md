@@ -66,7 +66,7 @@
 
 ## Deployment
 - This app is deployed using Streamlit Community Cloud
-- Streamlit App Link: (add after deployment)
+- Streamlit App Link: https://cst2216-real-estate-app-ryaw4bqztbrmretiqv88zp.streamlit.app/
 
 ## GitHub Repository
 - https://github.com/YOUR-USERNAME/CST2216-Real-Estate-Streamlit
