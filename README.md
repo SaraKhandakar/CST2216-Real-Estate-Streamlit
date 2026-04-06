@@ -69,7 +69,7 @@
 - Streamlit App Link: https://cst2216-real-estate-app-ryaw4bqztbrmretiqv88zp.streamlit.app/
 
 ## GitHub Repository
-- https://github.com/YOUR-USERNAME/CST2216-Real-Estate-Streamlit
+- https://github.com/SaraKhandakar/CST2216-Real-Estate-Streamlit
 
 ## Author
 - Shara Khandakar
