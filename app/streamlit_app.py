@@ -6,6 +6,10 @@ BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.append(BASE_DIR)
 
 from src.predict import load_model, make_prediction
+from src.logger import setup_logger
+
+logger = setup_logger()
+logger.info("Real Estate Streamlit app started")
 
 MODEL_PATH = os.path.join(BASE_DIR, "models", "real_estate_model.pkl")
 
@@ -53,7 +57,9 @@ st.markdown(
 )
 
 try:
+    logger.info(f"Loading model from {MODEL_PATH}")
     model = load_model(MODEL_PATH)
+    logger.info("Model loaded successfully")
 
     st.subheader("Property Information")
 
@@ -95,12 +101,16 @@ try:
             "property_type_Condo": 1 if property_type_condo == "Condo" else 0
         }
 
+        logger.info(f"Prediction requested with input: {input_data}")
         prediction = make_prediction(model, input_data)
+        logger.info(f"Prediction generated: {prediction}")
 
         st.success(f"Predicted Price: ${prediction:,.2f}")
         st.caption("This prediction is based on the trained machine learning model.")
 
 except FileNotFoundError:
+    logger.error("Model file not found")
     st.error("Model file not found. Please run train_model.py first.")
 except Exception as e:
+    logger.error(f"Application error: {e}")
     st.error(f"An error occurred: {e}")
