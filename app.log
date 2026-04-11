@@ -1,0 +1,11 @@
+2026-04-09 14:23:33,904 - INFO - Real Estate Streamlit app started
+2026-04-09 14:23:34,034 - INFO - Loading model from D:\BISI\Level 2\Machine learning 2\Project\CST2216-Real-Estate-Streamlit\models\real_estate_model.pkl
+2026-04-09 14:23:35,021 - INFO - Model loaded successfully
+2026-04-09 14:23:40,053 - INFO - Real Estate Streamlit app started
+2026-04-09 14:23:40,057 - INFO - Loading model from D:\BISI\Level 2\Machine learning 2\Project\CST2216-Real-Estate-Streamlit\models\real_estate_model.pkl
+2026-04-09 14:23:40,154 - INFO - Model loaded successfully
+2026-04-09 14:23:40,171 - INFO - Prediction requested with input: {'year_sold': 2020, 'property_tax': 5000.0, 'insurance': 1500.0, 'beds': 3, 'baths': 2, 'sqft': 2000.0, 'year_built': 2005, 'lot_size': 5000.0, 'basement': 0, 'popular': 0, 'recession': 0, 'property_age': 15, 'property_type_Condo': 0}
+2026-04-09 14:23:40,213 - INFO - Prediction generated: 717145.48
+2026-04-09 18:06:03,743 - INFO - Real Estate Streamlit app started
+2026-04-09 18:06:04,354 - INFO - Loading model from D:\BISI\Level 2\Machine learning 2\Project\CST2216-Real-Estate-Streamlit\models\real_estate_model.pkl
+2026-04-09 18:06:17,927 - INFO - Model loaded successfully

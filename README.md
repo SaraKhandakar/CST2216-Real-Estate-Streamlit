@@ -23,6 +23,18 @@
   - property_age
   - property_type_Condo
 
+## Logging
+
+-   A centralized logging system is implemented using Python logging
+    module
+-   Logs are stored in app.log
+-   Tracks:
+    -   Application startup
+    -   Model loading
+    -   User input for predictions
+    -   Prediction results
+    -   Errors and exceptions  
+
 ## Models Used
 - Linear Regression
 - Random Forest Regressor
